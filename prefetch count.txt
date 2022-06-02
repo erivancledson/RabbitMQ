@@ -1,0 +1,3 @@
+limita a quantidade de mensagens que o cliente vai receber.
+
+por padrão este limite de mensagem é de 250 na fila.

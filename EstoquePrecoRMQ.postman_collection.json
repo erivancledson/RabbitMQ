@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "5875c3ce-80aa-423d-a0ea-c4bb4bfbf093",
+		"name": "EstoquePrecoRMQ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2669838"
+	},
+	"item": [
+		{
+			"name": "Estoque",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigoProduto\": \"123abc\",\r\n    \"quantidade\":  12\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/estoque",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"estoque"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Preco",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"codigoProduto\": \"123abc\",\r\n    \"preco\":  1.32\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/preco",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"preco"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

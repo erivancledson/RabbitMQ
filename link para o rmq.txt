@@ -1,0 +1,8 @@
+http://localhost:15672/#/
+
+subir o servidor docker:
+docker-compose up -d
+
+
+derrubar o container docker:
+docker-compose down
